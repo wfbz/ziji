@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+span{
+    font-size: .9rem;
+}
+body{
+    background-color: #eee;
+}
+header {
+    display: flex;
+    background-color: #F58611;
+    color: #fff;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 99;
+}
+header div:nth-child(2){
+    flex-grow: 1;
+    text-align: center;
+}
+.swiper-wrapper img{
+    width:100%;
+}
+.d2{
+    display: flex;
+    background-color: #fff;
+    margin-top:.3rem;
+    margin-bottom:.3rem;
+}
+.d2 div:nth-child(1){
+    flex-grow: 1;
+    padding-left: 1rem;
+}
+.d2 div:nth-child(1) p:nth-child(1){
+    color: #F58611;
+    font-size: 1.4rem;
+}
+.d2 div:nth-child(2){
+    padding-right: 1rem;
+    text-align: center;
+    padding-top: .5rem;
+    border-left: 1px solid #eee;
+    padding-left: .8rem;
+}
+.d3{
+    background-color: #fff;
+    padding-top: .5rem;
+}
+.d3 div:nth-child(1){
+    border-left: 5px solid #F58611;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    border-bottom:1px solid #ccc;
+}
+.d3 div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding-bottom:1rem;
+    padding-top: 1rem;
+}
+.d3  span{
+    width:50%;
+}
+.d4{
+    background-color: #fff;
+    padding-top: .5rem;
+}
+.d4 div:nth-child(1){
+    border-left: 5px solid #F58611;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    border-bottom:1px solid #ccc;
+}
+.d4 div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding-bottom:1rem;
+    padding-top: 1rem;
+}
+.d4  span{
+    width:25%;
+}
+.d5{
+    background-color: #fff;
+    padding-top: .5rem;
+}
+.d5 div:nth-child(1){
+    border-left: 5px solid #F58611;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    border-bottom:1px solid #ccc;
+}
+.d5 div:nth-child(2){
+    padding: .5rem;
+}
+.d6{
+    background-color: #fff;
+    padding-top: .5rem;
+}
+.d61{
+    border-left: 5px solid #F58611;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    border-bottom:1px solid #ccc;
+}
+.d62{
+    padding: .5rem;
+    display:flex;
+    width:100%;
+}
+.d62 div{
+    flex-grow: 1;
+    width:30%;
+    padding: .5rem;
+}
+.d62 img{
+    width:100%;
+}
+footer{
+    background-color: #F58611;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 4rem;
+    line-height: 4rem;
+    color: #fff;
+
+}
